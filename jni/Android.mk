@@ -35,4 +35,4 @@ LOCAL_C_INCLUDES += $(LOCAL_PATH)/libmp3lame
 LOCAL_MODULE := libmp3lame
 LOCAL_MODULE_TAGS := optional
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
